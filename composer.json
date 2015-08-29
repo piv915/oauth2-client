@@ -1,9 +1,9 @@
 {
-    "name": "league/oauth2-client",
-    "description": "OAuth 2.0 Client Library",
+    "name": "piv915/oauth2-client",
+    "description": "OAuth 2.0 Client Library 5.4 backport",
     "license": "MIT",
     "require": {
-        "php": ">=5.5.0",
+        "php": ">=5.4.0",
         "ext-curl": "*",
         "ircmaxell/random-lib": "~1.1",
         "guzzlehttp/guzzle": "~6.0"
@@ -41,11 +41,6 @@
     "autoload-dev": {
         "psr-4": {
             "League\\OAuth2\\Client\\Test\\": "test/src/"
-        }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.0.x-dev"
         }
     }
 }
